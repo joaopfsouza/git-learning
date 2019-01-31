@@ -1,0 +1,4 @@
+#Exclui do versionamento alguns arquivos
+
+.vscode
+**/test
