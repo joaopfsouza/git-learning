@@ -58,6 +58,47 @@ Delete Tag
 git tag -d v1.0
 ````
 
+For files in work directory show diff of changes
+
+````
+git diff
+````
+Show graph of branches
+````
+git log --oneline --decorate --graph --all
+````    
+
+Alter the most recent commit ( add file [if exists files in stage]/change menssage)
+````
+git commit  --amend
+````
+Revert a commit
+````
+git revert #commit
+````
+
+backup before reset
+````
+git branch backup
+
+````
+
+Erase commit
+````
+git reset #commit [--mixed|--soft|--hard]
+````
+
+Git keep for 30 days commits. For see its
+````
+git reflog
+````
+Ancestry References
+
++ ^ – indicates the parent commit
++ ~ – indicates the first parent commit
+
+
+
 
 # Comments of Commit
 
