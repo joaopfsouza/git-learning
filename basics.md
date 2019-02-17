@@ -12,7 +12,7 @@ git clone
 
 Check o status of a repos
 ```
-git satus
+git status
 ```
 
 Git clone and change name of local folder
